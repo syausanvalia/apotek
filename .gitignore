@@ -1,23 +1,35 @@
 # Compiled and build artifacts
 *.pyc
 __pycache__/
+*.o
+*.obj
+*.class
+*.exe
+*.dll
+*.so
+*.a
+*.out
 
 # Dependencies
 node_modules/
 vendor/
+composer.lock
+*.lock
+.env
+.env.local
+.env.*
 
 # Logs and temp files
 *.log
 *.tmp
-
-# Environment
-.env
-.env.local
-*.env.*
+*.swp
+*.swo
 
 # Editors
 .vscode/
 .idea/
+*.swp
+*.swo
 
 # OS generated files
 .DS_Store
@@ -29,20 +41,10 @@ build/
 target/
 coverage/
 htmlcov/
-*.out
-
-# Python specific
-*.pyc
-__pycache__/
-*.pyo
-*.pyd
-.Python
-*.so
-.coverage
-.pytest_cache/
 .mypy_cache/
+.pytest_cache/
 
-# Compressed files
+# Compression files
 *.zip
 *.gz
 *.tar
