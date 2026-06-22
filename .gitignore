@@ -1,27 +1,71 @@
+```
+# Dependencies
+vendor/
+
+# Logs
 *.log
-.DS_Store
+
+# Environment
 .env
-.env.backup
-.env.production
-.phpactor.json
-.phpunit.result.cache
-/.codex
-/.cursor/
-/.idea
-/.nova
-/.phpunit.cache
-/.vscode
-/.zed
-/auth.json
-/node_modules
-/public/build
-/public/fonts-manifest.dev.json
-/public/hot
-/public/storage
-/storage/*.key
-/storage/pail
-/vendor
-_ide_helper.php
-Homestead.json
-Homestead.yaml
+.env.local
+.env.*
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.tmp
+
+# OS
+.DS_Store
 Thumbs.db
+
+# Build/compiled
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.out
+dist/
+build/
+target/
+coverage/
+htmlcov/
+.coverage
+
+# PHP specific
+*.php~
+*.php.bak
+.php_cs.cache
+composer.lock
+
+# Database
+*.sql
+*.db
+*.sqlite
+
+# Cache
+__pycache__/
+*.pyc
+*.pyo
+.Python
+*.swp
+*.swo
+
+# Testing
+.phpunit.result.cache
+.nyc_output/
+coverage/
+
+# Legacy build outputs
+.sass-cache/
+*.rbc
+*.rbo
+*.jar
+*.war
+*.ear
+.rspec_results
+```
