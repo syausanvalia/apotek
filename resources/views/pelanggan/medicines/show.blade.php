@@ -71,7 +71,7 @@
                     <h5 class="card-title">Beli Obat</h5>
                     <hr>
                     @if($medicine->status === 'available' && $medicine->stock > 0)
-                        <form action="{{ route('pelanggan.sales.store') }}" method="POST">
+                        <form action="{{ route('pelanggan.purchase.store', $medicine->id) }}" method="POST">
                             @csrf
                             <input type="hidden" name="medicine_id" value="{{ $medicine->id }}">
                             
