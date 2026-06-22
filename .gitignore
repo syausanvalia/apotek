@@ -1,54 +1,67 @@
-```
-# Dependency directories
-vendor/
+# Compiled and build artifacts
+*.pyc
+__pycache__/
+
+# Dependencies
 node_modules/
+vendor/
 
-# Build artifacts
-public/css/style.css
-public/js/main.js
-
-# Logs
+# Logs and temp files
 *.log
+*.tmp
 
-# Environment variables
+# Environment
 .env
 .env.local
 *.env.*
 
-# IDE files
+# Editors
 .vscode/
 .idea/
-*.swp
-*.swo
-*.tmp
 
-# OS files
+# OS generated files
 .DS_Store
 Thumbs.db
 
-# Cache directories
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-
-# Coverage reports
-coverage/
-htmlcov/
-.coverage
-
-# Distribution / packaging
+# Build directories
 dist/
 build/
-*.egg
-*.egg-info/
-*.whl
+target/
+coverage/
+htmlcov/
+*.out
 
-# Testing
-.phpunit.result.cache
+# Python specific
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+.Python
+*.so
+.coverage
+.pytest_cache/
+.mypy_cache/
 
-# Laravel specific
-bootstrap/cache/
-storage/framework/cache/
-storage/logs/
-```
+# Compressed files
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
