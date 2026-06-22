@@ -1,71 +1,54 @@
 ```
-# Dependencies
+# Dependency directories
 vendor/
+node_modules/
+
+# Build artifacts
+public/css/style.css
+public/js/main.js
 
 # Logs
 *.log
 
-# Environment
+# Environment variables
 .env
 .env.local
-.env.*
+*.env.*
 
-# Editor/IDE
+# IDE files
 .vscode/
 .idea/
 *.swp
 *.swo
 *.tmp
 
-# OS
+# OS files
 .DS_Store
 Thumbs.db
 
-# Build/compiled
-*.o
-*.obj
-*.exe
-*.dll
-*.so
-*.a
-*.out
-dist/
-build/
-target/
+# Cache directories
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Coverage reports
 coverage/
 htmlcov/
 .coverage
 
-# PHP specific
-*.php~
-*.php.bak
-.php_cs.cache
-composer.lock
-
-# Database
-*.sql
-*.db
-*.sqlite
-
-# Cache
-__pycache__/
-*.pyc
-*.pyo
-.Python
-*.swp
-*.swo
+# Distribution / packaging
+dist/
+build/
+*.egg
+*.egg-info/
+*.whl
 
 # Testing
 .phpunit.result.cache
-.nyc_output/
-coverage/
 
-# Legacy build outputs
-.sass-cache/
-*.rbc
-*.rbo
-*.jar
-*.war
-*.ear
-.rspec_results
+# Laravel specific
+bootstrap/cache/
+storage/framework/cache/
+storage/logs/
 ```
